@@ -1,0 +1,70 @@
+body {
+    background-color: #85a5d4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+div.wrapper {
+    margin-top: 100px;
+}
+div.tariffs {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #fff;
+    min-height: 340px;
+    padding-top: 40px;
+}
+.tariff {
+    cursor: pointer;
+    min-height: 340px;
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+#modal {
+    text-align: center;
+}
+.tariff .title, #modal .title {
+    text-transform: uppercase;
+    color: #5572d6;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.tariff .description, #modal .description {
+    color: #b5aaa6;
+}
+.tariff .price, #modal .price {
+    color: #5572d6;
+    font-size: 26px;
+    font-weight: bold;
+}
+.tariff sup, #modal sup {
+    font-size: 14px;
+}
+.tariff .period, #modal .period {
+    font-size: 14px;
+}
+button.confirm {
+    background-color: #5a57d6;
+    border-radius: 10px;
+    border-width: 1px;
+    color: #fff;
+    width: 240px;
+    height: 45px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    div.tariffs {
+        padding-top: 15px;
+    }
+    .tariff {
+        width: 100%;
+        float: none;
+    }
+    div.wrapper {
+        margin-top: 15px;
+    }
+
+}
